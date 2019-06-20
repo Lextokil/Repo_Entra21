@@ -1,0 +1,27 @@
+* git clone -copia o repositoriogit
+* git fetch
+
+atualiza a maquina com o que tem no server
+
+* git branch -u master 
+ crio uma branch na minha maquina
+
+
+	-customização 1
+	-customização 2
+	-customização 3
+* git status mostra o que tem de customização
+* git pull origin AQUI_COLOCAR_NOME_BRANCH
+* git add .
+	* se for .(ponto) adicionar tudo para commitar
+	* por ser feito por arquivo especifico
+	git add README.md
+
+* git commit -m "minha mensagem"
+
+* git push origin master
+
+
+* Git checkout -b nomedobranch  -> cria uma nova branch
+* Git checkout nomedobranch -> mudar de branch
+
