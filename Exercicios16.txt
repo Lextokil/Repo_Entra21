@@ -1,0 +1,32 @@
+
+
+1.Dentro de seu pacote de exercícios, crie um pacote chamado orientacao-a-objetos para os arquivos desenvolvidos nesta lista.
+
+2.Implemente uma classe para definir os objetos que representarão os clientes de um banco. Essa classe deve declarar dois atributos: um para os nomes e outro para os códigos dos clientes.
+3.Faça um teste criando dois objetos da classe Cliente.
+
+4.Os bancos oferecem aos clientes a possibilidade de obter um cartão de crédito que podem ser utilizados para fazer compras. Um cartão de crédito possui um número e uma data de validade. Crie uma classe para modelar os objetos que representarão os cartões de crédito.
+
+5.Faça um teste criando dois objetos da classe CartaoDeCredito. Altere e imprima os atributos desses objetos.
+
+6.As agências do banco possuem número. Crie uma classe para definir os objetos que representarão as agências.
+
+7.Faça um teste criando dois objetos da classe Agencia. Altere e imprima os atributos desses objetos.
+
+8.As contas do banco possuem número, saldo e limite. Crie uma classe para definir os objetos que representarão as contas.
+
+9.Faça um teste criando dois objetos da classe Conta. Altere e imprima os atributos desses objetos.
+
+10.Altere a classe Conta para que todos os objetos criados a partir dessa classe possuam R$ 100 de limite inicial.
+
+11.Implemente uma classe chamada Aluno para definir os objetos que representarão os alunos de uma escola. Essa classe deve declarar três atributos: o primeiro para o nome, o segundo para o RG e o terceiro para a data de nascimento dos alunos.
+
+12.Faça uma classe chamada TesteAluno e crie dois objetos da classe Aluno atribuindo valores a eles. A classe também deve mostrar na tela as informações desses objetos.
+
+13.Em uma escola, além dos alunos temos os funcionários, que também precisam ser representados em nossa aplicação. Então implemente outra classe chamada Funcionario que contenha dois atributos: o primeiro para o nome e o segundo para o salário dos funcionários.
+
+14.Faça uma classe chamada TesteFuncionario e crie dois objetos da classe Funcionario atribuindo valores a eles. Mostre na tela as informações desses objetos.
+
+15.Em uma escola, os alunos precisam ser divididos por turmas, que devem ser representadas dentro da aplicação. Implemente uma classe chamada Turma que contenha quatro atributos: o primeiro para o período, o segundo para definir a série, o terceiro para sigla e o quarto para o tipo de ensino.
+
+16.Faça uma classe chamada TesteTurma para criar dois objetos da classe Turma. Adicione informações a eles e depois mostre essas informações na tela
