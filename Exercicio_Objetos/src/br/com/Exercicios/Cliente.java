@@ -6,6 +6,10 @@ public class Cliente {
 		String nome;
 		int codigo;
 		
+		public Cliente() {
+			
+		}
+		
 		public Cliente(String xNome, int xcodigo) {
 			this.nome = xNome;
 			this.codigo = xcodigo;

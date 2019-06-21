@@ -5,7 +5,8 @@ package br.com.Exercicios;
 public class CartaoCredito {
 	int num;
 	String data;
-	public CartaoCredito() {
+	Cliente cliente;
+	public CartaoCredito(){
 		
 	}
 	public CartaoCredito(int xNum, String xData) {

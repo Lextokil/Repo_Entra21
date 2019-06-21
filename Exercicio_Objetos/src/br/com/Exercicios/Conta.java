@@ -4,6 +4,28 @@ public class Conta {
 	int numero;
 	Double saldo;
 	Double limite = 100.0;
+	Agencia agencia;
+	
+	public void Deposito(Double valor) {
+		saldo += valor;
+	}
+	
+	public void Saque(Double valor) {
+		saldo -= valor;
+	}
+	
+	public  void Extrato() {
+		
+		System.out.println("Conta: "   + numero);
+		System.out.println("Agencia: " + agencia.num);
+		System.out.println("Saldo: "   + saldo);
+		System.out.println("Limite: "  + limite);
+		
+	}
+	
+	public  Double Consulta() {
+		return saldo;
+	}
 	
 	public static void main(String[] args) {
 		Conta c1 = new Conta();
