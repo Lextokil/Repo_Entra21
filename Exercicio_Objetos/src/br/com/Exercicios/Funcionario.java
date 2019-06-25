@@ -1,8 +1,8 @@
 package br.com.Exercicios;
 
 public class Funcionario {
-	String nome;
-	Double salarioFunc;
+	public String nome;
+	public Double salarioFunc = 1000.0;
 	
 	public Funcionario(){
 		

@@ -1,7 +1,7 @@
 package br.com.Exercicios;
 
 public class Agencia {
-	int num;
+	public int num;
 	
 	public Agencia() {
 		

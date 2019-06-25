@@ -1,4 +1,7 @@
-package br.com.Exercicios;
+package br.com.Testes;
+
+import br.com.Exercicios.Aluno;
+import br.com.Exercicios.Turma;
 
 public class TesteAluno {
 

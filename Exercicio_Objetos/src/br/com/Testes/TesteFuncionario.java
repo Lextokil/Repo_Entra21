@@ -1,4 +1,6 @@
-package br.com.Exercicios;
+package br.com.Testes;
+
+import br.com.Exercicios.Funcionario;
 
 public class TesteFuncionario {
 

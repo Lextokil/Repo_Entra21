@@ -4,7 +4,7 @@ public class Aluno {
 	String nome;
 	int rg;
 	String datNasc;
-	Turma turma;
+	public Turma turma;
 	
 	public Aluno(){
 		

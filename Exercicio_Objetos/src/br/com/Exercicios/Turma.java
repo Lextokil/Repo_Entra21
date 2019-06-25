@@ -1,10 +1,10 @@
 package br.com.Exercicios;
 
 public class Turma {
-	int periodo;
-	int serie;
-	String sigla;
-	String tipoEnsino;
+	public int periodo;
+	public int serie;
+	public String sigla;
+	public String tipoEnsino;
 	
 	public Turma(String xSliga, String xEnsino, int xPeriodo, int xSerie) {
 		this.sigla = xSliga;

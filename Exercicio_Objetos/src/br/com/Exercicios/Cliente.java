@@ -3,8 +3,8 @@ package br.com.Exercicios;
 
 
 public class Cliente {
-		String nome;
-		int codigo;
+		public String nome;
+		public int codigo;
 		
 		public Cliente() {
 			
