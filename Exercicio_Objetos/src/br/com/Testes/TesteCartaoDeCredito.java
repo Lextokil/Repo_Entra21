@@ -1,6 +1,6 @@
 package br.com.Testes;
 
-import br.com.Exercicios.CartaoCredito;
+import br.com.Exercicios1.CartaoCredito;
 
 public class TesteCartaoDeCredito {
 

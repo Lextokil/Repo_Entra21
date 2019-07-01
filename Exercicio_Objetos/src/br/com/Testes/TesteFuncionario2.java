@@ -1,6 +1,6 @@
 package br.com.Testes;
 
-import br.com.Exercicios.Funcionario;
+import br.com.Exercicios1.Funcionario;
 import br.com.util.Teclado;
 
 public class TesteFuncionario2 {

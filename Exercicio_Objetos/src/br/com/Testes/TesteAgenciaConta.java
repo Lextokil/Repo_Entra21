@@ -1,7 +1,7 @@
 package br.com.Testes;
 
-import br.com.Exercicios.Agencia;
-import br.com.Exercicios.Conta;
+import br.com.Exercicios1.Agencia;
+import br.com.Exercicios1.Conta;
 
 public class TesteAgenciaConta {
 

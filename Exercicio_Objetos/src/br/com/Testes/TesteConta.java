@@ -1,6 +1,6 @@
 package br.com.Testes;
 
-import br.com.Exercicios.Conta;
+import br.com.Exercicios1.Conta;
 
 public class TesteConta {
 

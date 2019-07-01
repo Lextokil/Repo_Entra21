@@ -1,6 +1,6 @@
 package br.com.Testes;
 
-import br.com.Exercicios.Turma;
+import br.com.Exercicios1.Turma;
 
 public class TesteTurma {
 
