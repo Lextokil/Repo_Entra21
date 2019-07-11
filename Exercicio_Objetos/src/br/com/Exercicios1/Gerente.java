@@ -1,30 +1,52 @@
 package br.com.Exercicios1;
 
-public class Gerente {
-	Funcionario funcionario;
+public class Gerente extends Funcionario {
+	private String nomeUsuario;
+	private String senha;
 	
-	public void AumentoFixo() {
-		funcionario.salarioFunc += (funcionario.salarioFunc * 0.1);
+	
+	public Gerente() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	public Gerente(String xnome, Double xsal, String usuario, String senha) {
+		super(xnome, xsal);
+		this.nomeUsuario = usuario;
+		this.senha = senha;
+		
+		// TODO Auto-generated constructor stub
 	}
 	
-	public void AumentoVariavel(Double porcetagem) {
-		funcionario.salarioFunc += funcionario.salarioFunc *(porcetagem/100);
+	//Override
+	public void MostrarDados() {
+		System.out.println("Nome: " + getNome());
+		System.out.println("Salario:" + getSalarioFunc());
+		System.out.println(getNomeUsuario());
+		System.out.println(getSenha());
+		System.out.println(Bonificacao());
 	}
+	
+	//Override
+	public Double Bonificacao() {
+		Double bonificacao;
+		bonificacao = getSalarioFunc() * 0.2;
+		return bonificacao;
+	}
+	
+	
+	public String getNomeUsuario() {
+		return nomeUsuario;
+	}
+	public void setNomeUsuario(String nomeUsuario) {
+		this.nomeUsuario = nomeUsuario;
+	}
+	public String getSenha() {
+		return senha;
+	}
+	public void setSenha(String senha) {
+		this.senha = senha;
+	}
+	
+	
 
-	public static void main(String[] args) {
-		Gerente g1 = new Gerente();
-		Funcionario f1 = new Funcionario();
-		
-		f1.nome ="Carlos";
-		f1.salarioFunc = 1000d;
-		g1.funcionario = f1;
-		
-		System.out.println("Nome: "+  g1.funcionario.nome +"Salario: " +g1.funcionario.salarioFunc);
-		g1.AumentoFixo();
-		System.out.println("Nome: "+  g1.funcionario.nome +"Salario: " +g1.funcionario.salarioFunc);
-		g1.AumentoVariavel(35d);
-		System.out.println("Nome: "+  g1.funcionario.nome +"Salario: " +g1.funcionario.salarioFunc);
-		
-		
-	}
 }

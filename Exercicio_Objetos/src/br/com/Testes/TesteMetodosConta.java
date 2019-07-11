@@ -12,16 +12,10 @@ public class TesteMetodosConta {
 		Conta c2  = new Conta(a2);
 		
 		
-		c1.limite = 1000.0;
-		c1.numero = 321;
-		c1.saldo = 1000.0;
 		
-		c2.limite = 1000.0;
-		c2.numero = 456;
-		c2.saldo = 1000.0;
 		
-		System.out.println(c1.agencia.num);
-		System.out.println(c1.numero);
+	//	System.out.println(c1.agencia.num);
+		//System.out.println(c1.numero);
 		
 		c1.Extrato();
 		c1.Deposito(500.0);

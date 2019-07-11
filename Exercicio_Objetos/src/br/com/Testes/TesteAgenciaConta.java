@@ -10,12 +10,12 @@ public class TesteAgenciaConta {
 		Conta c1 = new Conta(a1);
 		
 		
-		c1.limite = 1000d;
-		c1.numero = 321;
-		c1.saldo = 1000d;
+		c1.setLimite(1000.0); 
+		c1.setNumero(321);
+		c1.setSaldo(1000.0);
 		
-		System.out.println(c1.agencia.num);
-		System.out.println(c1.numero);
+		System.out.println(c1.getAgencia().num);
+		System.out.println(c1.getNumero());
 		
 		
 		
